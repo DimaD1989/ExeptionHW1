@@ -16,7 +16,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int [] array1 = {1,2,4,5,8,7,9,3};
-        int [] array2 = {1,2,0,3,5,3,2,1};
+        int [] array2 = {1,2,1,3,5,3,2,1};
         System.out.println(" Первый массив " + Arrays.toString(array1));
         System.out.println(" Второй масссив " + Arrays.toString(array2));
         System.out.println("Разница двух  массивов " + differenceArray(array1, array2));
@@ -59,3 +59,17 @@ public class Main {
 
     }
 
+//
+// static String asString(ListNode head) {
+//        ListNode iterat = head;
+//        StringBuilder builder =new StringBuilder();
+//        while (iterat != null){
+//            builder.append(iterat.value);
+//            iterat = iterat.next;
+//            if(iterat==null){
+//                break;
+//            }else
+//            builder.append("->");
+//        }String result = builder.toString();
+//        System.out.println("["+result+"]");
+//        return null;
